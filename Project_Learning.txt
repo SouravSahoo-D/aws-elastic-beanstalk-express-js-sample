@@ -1,0 +1,25 @@
+## Project: Continuous Delivery Pipeline for Web Application (AWS)
+
+Objective: Built and deployed a full CI/CD pipeline for a Node.js web application using GitHub and AWS services. The pipeline automatically deploys updates whenever the source code is modified.
+
+## Tools & Technologies:
+
+Version Control: GitHub (source code trigger)
+
+CI/CD: AWS CodePipeline, AWS CodeBuild
+
+Deployment: AWS Elastic Beanstalk
+
+Infrastructure as Code (optional): AWS CloudFormation (for reusable setups)
+
+## Key Highlights:
+
+Connected GitHub repository to AWS CodePipeline for automatic pipeline triggers on commits.
+
+Configured buildspec.yml to manage dependencies and generate deployable artifacts using CodeBuild.
+
+Integrated AWS Elastic Beanstalk to host and auto-deploy the application on successful builds.
+
+Diagnosed real-world deployment issues such as IAM permission errors and artifact structure problems.
+
+Gained hands-on experience editing S3 bucket policies, IAM roles, and troubleshooting pipeline failures.
